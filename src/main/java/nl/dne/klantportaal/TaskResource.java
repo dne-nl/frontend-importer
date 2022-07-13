@@ -5,8 +5,8 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-@Path("/hello")
-public class GreetingResource {
+@Path("/tasks")
+public class TaskResource {
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
